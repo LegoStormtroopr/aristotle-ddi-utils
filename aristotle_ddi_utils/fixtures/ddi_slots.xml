@@ -1,0 +1,16 @@
+[
+  {
+    "fields": {
+      "created": "2016-05-19T22:14:05.310Z",
+      "datatype": null,
+      "concept_type": "objectclass",
+      "modified": "2016-05-19T22:14:05.312Z",
+      "slot_name": "test",
+      "app_label": "aristotle_mdr",
+      "help_text": "",
+      "cardinality": 0
+    },
+    "model": "aristotle_mdr_slots.slotdefinition",
+    "pk": 1
+  }
+]

@@ -7,6 +7,11 @@ from aristotle_mdr.utils import get_download_template_path_for_item
 from aristotle_mdr.downloader import items_for_bulk_download
 from aristotle_ddi_utils.serializers import register, fragment
 
+item_register = {
+    'ddi3.2': {
+        'aristotle_mdr': ['dataelement', 'dataelementconcept', 'objectclass'],
+    }
+}
 
 def download(request,downloadType,item):
 
